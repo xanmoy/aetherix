@@ -1,66 +1,46 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Aetherix",
+	description: "Aetherix is a next generation cloud computing platform.",
 	navItems: [
 		{
 			label: "Home",
 			href: "/",
 		},
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Specs",
+      href: "/specs",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Services",
+      href: "/services",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Tech",
+      href: "/tech",
     },
-    {
-      label: "About",
-      href: "/about",
-    }
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			href: "/",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Specs",
+			href: "/specs",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+			label: "Services",
+			href: "/services",
 		},
 		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+			label: "Tech",
+			href: "/tech",
 		},
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
+		github: "https://github.com/xanmoy/aetherix",
 		twitter: "https://twitter.com/getnextui",
 		docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",

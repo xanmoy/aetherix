@@ -28,6 +28,7 @@ import {
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
+import { GiServerRack } from "react-icons/gi";
 
 export const Navbar = () => {
 	const searchInput = (
@@ -56,8 +57,8 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-						<Logo />
-						<p className="font-bold text-inherit">ACME</p>
+						<GiServerRack />
+						<p className="font-bold text-inherit">Aetherix</p>
 					</NextLink>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -83,20 +84,20 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
+					{/* <Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
 						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
+					</Link> */}
+					{/* <Link isExternal href={siteConfig.links.discord} aria-label="Discord">
 						<DiscordIcon className="text-default-500" />
-					</Link>
+					</Link> */}
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
-				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+				{/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
 				<NavbarItem className="hidden md:flex">
-					<Button
+					{/* <Button
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
@@ -105,7 +106,7 @@ export const Navbar = () => {
 						variant="flat"
 					>
 						Sponsor
-					</Button>
+					</Button> */}
 				</NavbarItem>
 			</NavbarContent>
 
@@ -118,19 +119,13 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarMenu>
-				{searchInput}
+				{/* {searchInput} */}
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
-								color={
-									index === 2
-										? "primary"
-										: index === siteConfig.navMenuItems.length - 1
-										? "danger"
-										: "foreground"
-								}
-								href="#"
+								className="text-black dark:text-white"
+								href={item.href}
 								size="lg"
 							>
 								{item.label}
