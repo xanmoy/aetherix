@@ -44,12 +44,20 @@ export default function Specs() {
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row" className="border scoped">CPU</th>
-							<td className="border">11th Gen Intel i5-11400 (12).</td>
+							<th scope="row" className="border scoped">CPU 1</th>
+							<td className="border">11th Gen Intel i5-11400 (12) @ 4. </td>
 						</tr>
 						<tr>
-							<th scope="row" className="border scoped">Memory</th>
+							<th scope="row" className="border scoped">CPU 2</th>
+							<td className="border">Intel 13-3110M (4) @ 2.400GHZ</td>
+						</tr>
+						<tr>
+							<th scope="row" className="border scoped">Memory 1</th>
 							<td className="border">9292MiB / 16000MiB</td>
+						</tr>
+						<tr>
+							<th scope="row" className="border scoped">Memory 2</th>
+							<td className="border">2016MiB / 4000MiB</td>
 						</tr>
 						<tr>
 							<th scope="row" className="border scoped">GPU 1</th>
@@ -58,6 +66,10 @@ export default function Specs() {
 						<tr>
 							<th scope="row" className="border scoped">GPU 2</th>
 							<td className="border">nvidia geforce 610m/710m/810m/820m / gt 620m/625m/630m/720m</td>
+						</tr>
+						<tr>
+							<th scope="row" className="border scoped">Hardware Model</th>
+							<td className="border">Micro-Star International Co., Ltd. MS-7D23</td>
 						</tr>
 						<tr>
 							<th scope="row" className="border scoped">Kernel</th>
