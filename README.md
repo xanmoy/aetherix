@@ -1,40 +1,34 @@
-# Next.js & NextUI Template
+# Project Title
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+Short description of your project.
+
+## Table of Contents
+
+- [About](#about)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+Provide a brief overview of what your project does.
 
 ## Technologies Used
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+List the main technologies and libraries used in your project.
 
-## How to Use
+- Next.js
+- React
+- Tailwind CSS
+- Other relevant technologies
 
+## Getting Started
 
-### Use the template with create-next-app
+These instructions will help you set up the project on your local machine.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+1. Clone the repository:
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+git clone https://github.com/your-username/your-repository.git
