@@ -13,7 +13,7 @@ export default function Specs() {
 				</p>
 				<br />
 				<p>
-					<strong>Memory:</strong> Equipped with 16,000 MiB of RAM, the Aetherix server ensures efficient multitasking and smooth operation, with 9,292 MiB currently in use.
+					<strong>Memory:</strong> Equipped with 20,000 MiB of RAM, the Aetherix server ensures efficient multitasking and smooth operation, with 9,292 MiB currently in use.
 				</p>
 				<br />
 				<p>
@@ -53,11 +53,11 @@ export default function Specs() {
 						</tr>
 						<tr>
 							<th scope="row" className="border scoped">Memory 1</th>
-							<td className="border">9292MiB / 16000MiB</td>
+							<td className="border">16000MiB</td>
 						</tr>
 						<tr>
 							<th scope="row" className="border scoped">Memory 2</th>
-							<td className="border">2016MiB / 4000MiB</td>
+							<td className="border">4000MiB</td>
 						</tr>
 						<tr>
 							<th scope="row" className="border scoped">GPU 1</th>
